@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"dnc.rest.demo.students.entity","l":"Student"}];updateSearchResults();
