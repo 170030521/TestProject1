@@ -1,0 +1,25 @@
+<h2>employee2 works!</h2>
+
+
+        
+<div class ="container">
+    <table border="1px"class="table table-hover">
+      <td colspan="4">Search:<input type="text" [(ngModel)]="filter"  ></td>
+
+    <tr><th>empID</th>
+        <th>empName</th>
+        <th>empSal</th>
+        
+
+    </tr>
+   
+    <tr ngColor *ngFor="let emp of employees | search:filter"> 
+    <td>{{emp.empid}}</td>
+    <td>{{emp.empname}}</td>
+    <td>{{emp.empsal}}</td>
+    
+
+
+
+      </table>  
+</div>
